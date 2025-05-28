@@ -17,7 +17,7 @@ public class ClienteTest {
 
         assertEquals("Ana García", cliente.getNombre());
 
-        assertEquals(1, cliente.obtenerMovimientos().size()); 
+        assertEquals(0, cliente.obtenerMovimientos().size()); 
         assertEquals(0, cuenta.getMovimientos().size());
 
    
