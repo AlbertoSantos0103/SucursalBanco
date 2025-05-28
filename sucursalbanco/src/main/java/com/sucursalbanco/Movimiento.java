@@ -13,6 +13,10 @@ public abstract class Movimiento {
         this.monto = monto;
     }
 
+    public int getId() {
+        return id;
+    }
+
        public Date getFecha() {
         return fecha;
     }
